@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <submenu text="First">
+        <menu src="menu.xml"/>
+    </submenu>
+
+    <submenu text="Second">
+        <menu>
+            <submenu text="info">
+                <description>asdas</description>
+            </submenu>
+            <submenu text="copy data">
+                <executable src="/executables/test.txt"/>
+            </submenu>
+        </menu>
+    </submenu>
+</menu>
